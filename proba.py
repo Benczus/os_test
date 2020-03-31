@@ -12,4 +12,4 @@ def hiveconnection(host_name, port, database, username):
     result = cur.fetchall()
     return result
 print(hiveconnection(host_name, port, database, username))
-
+print("1 2 3")
